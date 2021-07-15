@@ -1,0 +1,10 @@
+person={"name":"jack",
+        "age":20,
+        "gender":"male",
+        4:{"orgnaistion":"navgurukul",
+          "place":"dharmsala"}
+}  
+print(person["gender"])
+print(person[4])
+result=person[4]["place"]
+print(result)
